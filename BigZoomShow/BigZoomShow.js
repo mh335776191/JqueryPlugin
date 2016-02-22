@@ -9,7 +9,7 @@
         var zoomdiv = '<div style="height:' + $(document).height() + ';widht' + $(document).width() + '; position: absolute; top:0px; filter: alpha(opacity=60);background-color: #777;z-index: 1002; left: 0px;opacity:0.5; -moz-opacity:0.5; "></div>';
         $(document.body).append(zoomdiv);
         $(zoomdiv).show();
-        var bigtemp = $(this).copy();
+        var bigtemp = $(this);
         bigtemp.css("font-size", opt.fontsize);
         bigtemp.css("color", opt.fontcolor);
         bigtemp.css("z-index", zindex);
